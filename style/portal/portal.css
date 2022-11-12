@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 30px;
+    font-size: 0.9375rem;
+    font-family: "Open sans", Helvetica, Arial, sans-serif; 
+
+}
+a, a:hover,a:focus{
+	text-decoration: none;
+	outline: 0;
+}
+.header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    opacity: .8;
+    width: 100%;
+    position: fixed;
+    height: 110px;
+  }
+  .header a {
+    float: left;
+    color: black;
+    padding: 15px;
+    line-height: 30px;
+    border-radius: 4px;
+  }
+  .header h3 {
+    position: absolute;
+    width: 400px;
+    padding-left: 10%;
+    padding-top: 2%;
+  }
+  .header img {
+    width: 90px;
+    padding-left: 25px;
+  }
+  .header a:hover {
+    background-color: rgb(75, 123, 59);
+    color: white;
+  }
+ .header-right {
+    display: inline-block;
+    float: right;
+    padding-top: 3%;
+    padding-right: 20%;
+  }
+  .container {
+    height: 200px;
+  }
+.container > div{
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  text-align: center;
+  letter-spacing: 2px;
+  padding-top: 35px;
+}
+.sector1{
+	padding-top: 35px;
+  color: #fff;
+  background: rgb(75, 123, 59);
+}
+.sector1 h4{
+	font-size:25px;
+}
+.sector1 p {
+  margin-left: 6%;
+  margin-right: 6%;
+}
+.general-inf {
+  text-align: justify;
+  height: 520px;
+  background-color: #f1f1f1;
+}
+.general-inf {
+	padding-top: 40px;
+	padding-bottom: 10%;
+}
+.general-inf h4 {
+	font-size: 30px;
+}
+.general-inf p {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.container-person li{
+  margin-left: 30%;
+  padding-top: 2%;
+  text-align: left;
+}
+.container-person h4{
+ font-size: 25px;
+}
+.container-footer {
+  height: 120px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  text-align: center;
+}
+.container-footer img {
+  width: 40px;
+  height: 40px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.content-news {
+  background-color: #f1f1f1;
+  margin-left: 10%;
+  margin-right: 10%; 
+  padding-bottom: 5%;
+}
+.date-news-top {
+  padding-top: 10%;
+  color: gray;
+}
+.content-news img {
+  padding-top: 10px;
+  padding-left: 27%;
+ 
+}
+.content-news p {
+  line-height: 30px;
+  text-align:justify;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.date-news p{
+  color: gray;
+}
+.content-news h2, ul {
+  margin-left: 12%;
+  margin-right: 12%;
+}
+.galary-place img{
+  padding-top: 10px;
+  margin-left: 2%;
+}
